@@ -53,4 +53,23 @@ colorscheme gruvbox
 " Nerdtree plugin args
 autocmd VimEnter * NERDTree | wincmd p
 
+"""""""""
+"""CoC"""
+"""""""""
+
+" Trigger code completion with <TAB>
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1):
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+" Open code completion suggestions with <CTRL+Space>
+if has('nvim')
+  inoremap <silent><expr> <c-space> coc#refresh()
+else
+  inoremap <silent><expr> <c-@> coc#refresh()
+endif
+
+" Enable CoC extensions
 let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']
