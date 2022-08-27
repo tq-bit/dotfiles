@@ -1,4 +1,4 @@
-" Options
+"Options
 set background=dark
 set clipboard=unnamedplus
 set completeopt=noinsert,menuone,noselect
@@ -27,8 +27,9 @@ set ruler
 call plug#begin()
     " Appearance
     Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
     Plug 'ryanoasis/vim-devicons'
-    Plug 'morhetz/gruvbox'
+    Plug 'joshdick/onedark.vim' 
     
     " Utilities
     Plug 'sheerun/vim-polyglot'
@@ -48,7 +49,8 @@ call plug#begin()
 call plug#end()
 
 " Appearance
-colorscheme gruvbox
+syntax on
+colorscheme onedark
 
 " Nerdtree plugin args
 autocmd VimEnter * NERDTree | wincmd p
@@ -64,6 +66,10 @@ inoremap <silent><expr> <TAB>
       \ coc#refresh()
 inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
+" Switch tabs with ALT+Right/Left
+nnoremap <A-Right> :tabnext<CR>
+nnoremap <A-Left> :tabprevious<CR>
+
 " Open code completion suggestions with <CTRL+Space>
 if has('nvim')
   inoremap <silent><expr> <c-space> coc#refresh()
@@ -73,3 +79,4 @@ endif
 
 " Enable CoC extensions
 let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']
+let g:airline#extensions#tabline#enabled = 1
