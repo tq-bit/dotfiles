@@ -1,0 +1,136 @@
+{
+	"js/ts.implicitProjectConfig.checkJs": true,
+	"workbench.iconTheme": "eq-material-theme-icons-darker",
+	"editor.suggestSelection": "first",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": ["javascript"],
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"git.autofetch": true,
+	"files.trimTrailingWhitespace": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.tabSize": 2,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"vetur.format.defaultFormatter.html": "prettier",
+	"vetur.completion.useScaffoldSnippets": false,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.linkedEditing": true,
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"editor.acceptSuggestionOnEnter": "smart",
+	"debug.console.closeOnEnd": true,
+	"auto-rename-tag.activationOnLanguage": ["*"],
+	"typescript.tsserver.useSyntaxServer": "auto",
+	"xmlTools.enableXmlTreeViewCursorSync": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"remote.SSH.remotePlatform": {
+		"159.89.9.209": "linux",
+		"192.168.2.159": "linux"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
+	"workbench.startupEditor": "newUntitledFile",
+	"liveServer.settings.donotVerifyTags": true,
+	"editor.wordWrapColumn": 120,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"html.format.wrapLineLength": 200,
+	"git.enableSmartCommit": true,
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "vue"
+	},
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.colorDecorators": true,
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"files.associations": {
+		"*.hbs": "html"
+	},
+	"liveServer.settings.donotShowInfoMsg": true,
+	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+	"git.confirmSync": false,
+	"[handlebars]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"javascript.preferences.quoteStyle": "single",
+	"prettier.singleQuote": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"redhat.telemetry.enabled": false,
+	"notebook.cellToolbarLocation": {
+		"default": "right"
+	},
+	"workbench.colorCustomizations": {
+		"editor.lineHighlightBackground": "#1073cf2d",
+		"editor.lineHighlightBorder": "#9fced11f"
+	},
+	"editor.wordWrap": "off",
+	"diffEditor.wordWrap": "off",
+	"vs-kubernetes": {
+		"vscode-kubernetes.minikube-path.linux": "/home/earthenlynx/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+	},
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 100,
+	"telemetry.telemetryLevel": "off",
+	"bracketPairColorizer.forceUniqueOpeningColor": true,
+	"bracketPairColorizer.highlightActiveScope": true,
+	"bracketPairColorizer.rulerPosition": "Full",
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": true,
+	"workbench.colorTheme": "New Moon",
+	"window.menuBarVisibility": "compact",
+	"window.titleSeparator": " | ",
+	"eslint.run": "onSave",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python"
+	},
+	"bracketPairColorizer.depreciation-notice": false,
+	"workbench.editor.splitInGroupLayout": "vertical",
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"terminal.explorerKind": "external",
+	"editor.inlineSuggest.enabled": true,
+	"[shellscript]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"prettier.useTabs": true,
+	"explorer.confirmDragAndDrop": false,
+	"editor.guides.indentation": false,
+	"git.ignoreRebaseWarning": true,
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+	"[properties]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"editor.formatOnSave": true,
+	"[dockerfile]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"[dotenv]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"[ignore]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	}
+}
